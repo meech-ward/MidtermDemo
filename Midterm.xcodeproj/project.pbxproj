@@ -14,6 +14,7 @@
 		22F797421EFDCB4B005D174A /* Midterm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22F797401EFDCB4B005D174A /* Midterm.xcdatamodeld */; };
 		22F797441EFDCB4B005D174A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F797431EFDCB4B005D174A /* Assets.xcassets */; };
 		22F797471EFDCB4B005D174A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F797451EFDCB4B005D174A /* LaunchScreen.storyboard */; };
+		22F797501EFDCC20005D174A /* NetworkHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F7974F1EFDCC20005D174A /* NetworkHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		22F797431EFDCB4B005D174A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22F797461EFDCB4B005D174A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22F797481EFDCB4B005D174A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22F7974E1EFDCC20005D174A /* NetworkHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkHandler.h; sourceTree = "<group>"; };
+		22F7974F1EFDCC20005D174A /* NetworkHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				22F797381EFDCB4B005D174A /* AppDelegate.m */,
 				22F7973A1EFDCB4B005D174A /* ViewController.h */,
 				22F7973B1EFDCB4B005D174A /* ViewController.m */,
+				22F7974E1EFDCC20005D174A /* NetworkHandler.h */,
+				22F7974F1EFDCC20005D174A /* NetworkHandler.m */,
 				22F7973D1EFDCB4B005D174A /* Main.storyboard */,
 				22F797431EFDCB4B005D174A /* Assets.xcassets */,
 				22F797451EFDCB4B005D174A /* LaunchScreen.storyboard */,
@@ -158,6 +163,7 @@
 				22F797391EFDCB4B005D174A /* AppDelegate.m in Sources */,
 				22F797421EFDCB4B005D174A /* Midterm.xcdatamodeld in Sources */,
 				22F797361EFDCB4B005D174A /* main.m in Sources */,
+				22F797501EFDCC20005D174A /* NetworkHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
